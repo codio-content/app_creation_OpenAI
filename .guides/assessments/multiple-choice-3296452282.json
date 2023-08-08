@@ -1,0 +1,67 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3296452282",
+	"source": {
+		"name": "Coding Comprehension",
+		"showName": true,
+		"instructions": "### True or False\nLook at the Moreflix function we have created. It takes 2 arguments and returns a string that includes the user's inputs.\n\nSpecifically, the function prompts the user for the following inputs:\n\nThe number of movie recommendations they want\nThe genre they want\nA similar movie they have in mind.",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "6a2a9b62-ed95-53c2-8ecf-1b609f8c983c",
+				"correct": false,
+				"answer": "True "
+			},
+			{
+				"_id": "7496f191-0f7b-0005-feba-ba131775e8b4",
+				"correct": true,
+				"answer": "False"
+			}
+		],
+		"guidance": "The function takes **no** arguments and returns a string that includes the user's inputs.\n\nSpecifically, the function prompts the user for the following inputs:\n\nThe number of movie recommendations they want\nThe genre they want\nA similar movie they have in mind.\nThe function prints out each prompt and waits for the user to input their response. Once the user has provided all the inputs, the function returns a string that includes the user's inputs.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"moflix.py",
+				"box.txt"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "moflix.py"
+				},
+				{
+					"type": "file",
+					"content": "moflix.py"
+				},
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "box.txt"
+				},
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

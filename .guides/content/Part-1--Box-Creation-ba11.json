@@ -1,0 +1,23 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "moflix.py",
+			"action": "open"
+		},
+		{
+			"path": "#terminal: ",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"id": "ba115547-0e1d-de45-df9b-e076b95c36e0",
+	"layout": "3-cell",
+	"learningObjectives": "",
+	"path": [],
+	"teacherOnly": false,
+	"title": "Part 1. Box Creation",
+	"type": "page"
+}

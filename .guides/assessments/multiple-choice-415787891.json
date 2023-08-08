@@ -1,0 +1,67 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-415787891",
+	"source": {
+		"name": "Function Comprehension",
+		"showName": false,
+		"instructions": "What is the purpose of the `Res` function in the provided Python script?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "a517130c-b198-8dc3-0669-d039a5c92419",
+				"correct": false,
+				"answer": "It is used to print a list of movie recommendations in a formatted box."
+			},
+			{
+				"_id": "a0ecb7f4-9621-e78f-a1b8-8f77db4f6ab4",
+				"correct": false,
+				"answer": "It is used to collect user input about the number, genre, and similarity of desired movie recommendations."
+			},
+			{
+				"_id": "1d495f41-ce35-b687-861e-99e9f2af9641",
+				"correct": true,
+				"answer": "It is used to generate movie recommendations based on a specific prompt by invoking OpenAI's GPT model.\n\n"
+			},
+			{
+				"_id": "21ba7ac1-919f-b3df-536f-896f0e396d1a",
+				"correct": false,
+				"answer": " It is used to handle exceptions when trying to convert a string to a Python list."
+			}
+		],
+		"guidance": "The `Res` function in the script takes an input prompt and sends it to OpenAI's GPT model. It uses the `openai.Completion.create` method to generate a text completion based on the input prompt. The function then returns this generated text. In the context of this script, the `Res` function is used to generate movie recommendations based on the input collected from the user (i.e., the number of recommendations, the genre, and a similar movie).",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"moflix.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "moflix.py"
+				},
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

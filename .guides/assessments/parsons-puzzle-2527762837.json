@@ -1,0 +1,44 @@
+{
+	"type": "parsons-puzzle",
+	"taskId": "parsons-puzzle-2527762837",
+	"source": {
+		"name": "MoreFlix",
+		"showName": true,
+		"instructions": "Rearrange the code below so that our Moreflix function is expanded and can handle recommendations that are not movies. (Hint: Indentation matters)",
+		"initial": "def Moreflix():\n  # ask the user for different inputs\n  user_req=input(&quot;what recomendation type do you want? book ?song? movies? show? &quot;)\n  number_recs=input(&#039;How many &#039;+user_req+&#039; do you want recommended: &#039;)\n  genre=input(&#039;What genre are you looking for: &#039;)\n  similar=input(&#039;What is a similar &#039; + user_req +&#039;: &#039; )\n  if number_recs==&quot;0&quot;:\n    number_recs=5\n  if genre==&quot;0&quot; and similar==&quot;0&quot;:\n    return(&quot;In a python list form, give me &quot; + str(number_recs) + user_req + &quot;recommendation&quot;)\n  if genre==&quot;0&quot; :\n    return (&quot;In a python list form, give me &quot; +str(number_recs) + user_req + &quot;recommendation, similar to &quot; + similar)\n  if similar==&quot;0&quot;:\n    return (&quot;In a python list form, give me &quot;+ str(number_recs)+ &quot; &quot; + genre + user_req + &quot; recommendation&quot;)\n  return (&quot;In a python list form, give me &quot;+str(number_recs)+&quot; &quot;+genre + user_req +&quot; recommendation similar to &quot; + similar)",
+		"options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"show_feedback\":true}",
+		"grader": "1",
+		"guidance": "We simply added a new variable called `user_req` and passed that instead of movies in our prompt when generating a response.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Parsons Puzzle"
+				}
+			],
+			"files": [
+				"moflix.py",
+				"setting.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "moflix.py"
+				},
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

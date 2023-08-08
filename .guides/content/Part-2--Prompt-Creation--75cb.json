@@ -1,0 +1,27 @@
+{
+	"id": "75cb8dd8-b224-5017-14b4-1207377be86e",
+	"title": "Part 2. Prompt Creation ",
+	"files": [
+		{
+			"path": "#terminal: ",
+			"panel": 1,
+			"action": "open"
+		},
+		{
+			"path": "",
+			"action": "open"
+		},
+		{
+			"path": "box.txt",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": ""
+}

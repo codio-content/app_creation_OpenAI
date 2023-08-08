@@ -1,0 +1,23 @@
+{
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideBackToDashboard": false,
+	"hideMenu": false,
+	"hideSectionsToggle": false,
+	"lexikonTopic": "",
+	"order": [
+		"Learning-Objectives-ea75",
+		"Program-Using-OpenAI-6b8a",
+		"Part-1--Box-Creation-ba11",
+		"Part-2--Prompt-Creation--75cb",
+		"Part-3--Presenting-Info-7ba0",
+		"Coding-Exercise-9f1c"
+	],
+	"protectLayout": false,
+	"scripts": [],
+	"suppressPageNumbering": true,
+	"theme": "light",
+	"title": "App Creation",
+	"useMarkAsComplete": true,
+	"useSubmitButtons": true
+}

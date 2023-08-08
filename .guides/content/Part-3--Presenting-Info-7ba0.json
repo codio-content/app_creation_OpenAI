@@ -1,0 +1,27 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "moflix.py",
+			"action": "open"
+		},
+		{
+			"path": "#terminal: ",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"id": "7ba05cf8-ef9a-f294-a4ba-0dee5b91822c",
+	"layout": "3-cell",
+	"learningObjectives": "",
+	"path": [],
+	"teacherOnly": false,
+	"title": "Part 3. Presenting Info",
+	"type": "page"
+}

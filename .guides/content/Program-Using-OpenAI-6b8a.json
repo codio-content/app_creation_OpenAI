@@ -1,0 +1,27 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "box.txt",
+			"panel": 1,
+			"action": "open"
+		},
+		{
+			"path": "moflix.py",
+			"action": "open"
+		}
+	],
+	"id": "6b8a09ec-f62e-fdc0-a1cf-55f74f49e156",
+	"layout": "3-cell",
+	"learningObjectives": "",
+	"path": [],
+	"teacherOnly": false,
+	"title": "Program Using OpenAI",
+	"type": "page"
+}
